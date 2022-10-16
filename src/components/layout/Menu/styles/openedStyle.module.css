@@ -1,0 +1,44 @@
+.opened-nav-menu ul {
+    width: 400px;
+    list-style-type: none;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 29%, rgba(67,76,79,0) 100%);
+    animation-name: fromRight;
+    animation-duration: 0.5s;
+    fill: 'forwards';
+    display: flex;
+    padding-top: 110px;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.opened-nav-menu ul li {
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.opened-nav-menu ul li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.opened-nav-menu ul li span {
+    margin-left: 25px;
+}
+
+.opened-nav-menu .active-menu-lists a {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+@keyframes fromRight {
+    from {
+      transform: translateX(-2100px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+}

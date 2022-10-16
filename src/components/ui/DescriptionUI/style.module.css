@@ -1,0 +1,13 @@
+.description-text {
+    color: #FFFFFF;
+}
+
+.description-text-lg { max-width: 450px; }
+.description-text-md { max-width: 350px; }
+.description-text-sm { max-width: 250px; }
+
+.description-text p span:last-child {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}

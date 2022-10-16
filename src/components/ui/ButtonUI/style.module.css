@@ -1,0 +1,28 @@
+.button-ui {
+  height: 45px;
+  border-radius: 35px;
+  background-color: #ffffff;
+  color: #000;
+  cursor: pointer;
+  border: none;
+}
+
+.button-ui img {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.btn-lg {
+  min-width: 150px;
+}
+.btn-md {
+  min-width: 120px;
+}
+.btn-sm {
+  min-width: 90px;
+}

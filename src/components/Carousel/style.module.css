@@ -1,0 +1,15 @@
+.carousel-root {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.slide {
+  width: 180px;
+}
+
+.cardRoot {
+  width: 150px;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.heading-title {
+    color: #FFFFFF
+}
+
+.heading-title-lg { max-width: 450px; }
+.heading-title-md { max-width: 350px; }
+.heading-title-sm { max-width: 250px; }
+
+.heading-title img {
+    width: 100%;
+}

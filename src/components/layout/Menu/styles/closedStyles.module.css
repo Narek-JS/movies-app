@@ -1,0 +1,32 @@
+.closed-nav-menu ul {
+    width: 90px;
+    height: 100vh;
+    background: #000;
+    list-style-type: none;
+    animation-name: fromRight;
+    animation-duration: 0.1s;
+    fill: 'forwards';
+    display: flex;
+    padding-top: 110px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.closed-nav-menu ul li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.closed-nav-menu .active-menu-lists a {
+  text-decoration: none;
+}
+
+@keyframes fromRight {
+    from {
+      transform: translateX(-100px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+}

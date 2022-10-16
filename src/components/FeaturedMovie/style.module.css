@@ -1,0 +1,25 @@
+.root {
+  color: #ffffff;
+  margin-left: 100px;
+  height: 100%;
+  padding-top: 110px;
+}
+
+.root .category {
+  color: #bababa;
+}
+
+.bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
